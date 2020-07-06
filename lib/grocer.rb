@@ -28,7 +28,6 @@ def consolidate_cart(cart)
         new_cart.push(i)
       end
     end
-    # i[:count] = item_count
     item_count.each do |item, number|
       if i[:item] == item
         i[:count] = number
